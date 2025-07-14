@@ -1,0 +1,63 @@
+/* Nested css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* Header Css */
+.navbar {
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-parent{
+    position: relative;
+}
+
+.search-parent input {
+    width: 508.94px;
+    padding: 0 20px;
+    height: 48px;   
+    border-radius: 66px;
+    border: none;
+    background: rgb(241, 241, 241);
+}
+.search-parent i{
+    position: absolute;
+    top:17px;
+    right: 20px;
+    color: rgb(186, 186, 186);
+    cursor: pointer;
+}
+
+.nav-items {
+    display: flex;
+    gap: 24px;
+   
+}
+
+.nav-items li {
+    list-style: none;
+    
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+}
