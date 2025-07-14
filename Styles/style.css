@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 p,
@@ -185,17 +186,20 @@ h3 {
     background: rgb(0, 0, 0);
     margin-bottom: 40px;
 }
-.products h3{
+
+.products h3 {
     margin: 20px 0;
     font-size: 24px;
     color: rgb(31, 31, 31);
 }
-.products h2{
+
+.products h2 {
     color: rgb(31, 31, 31);
     font-size: 36px;
     margin-top: 50px;
 }
-.shoes{
+
+.shoes {
     padding: 0 30px;
 }
 
@@ -217,13 +221,14 @@ h3 {
 .shoes-card img {
     width: 336px;
     height: 202px;
-    padding-right:30px ;
+    padding-right: 30px;
 }
 
 /* Products Bag */
-.bags{
+.bags {
     padding: 0 30px;
 }
+
 .bags-container {
     display: flex;
     gap: 40px;
@@ -242,5 +247,40 @@ h3 {
 .bags-card img {
     width: 336px;
     height: 202px;
-    
+
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    background: rgb(255, 242, 241);
+    width: 1240px;
+    /* height: 455px; */
+    margin: 60px auto;
+    padding: 100px 0;
+
+}
+
+.contact input {
+    margin-top: 30px;
+    padding: 19px;
+    width: 700px;
+    height: 70px;
+    border-radius: 10px 0px 0 10px;
+    border: none;
+    margin-left: 200px;
+}
+
+.contact h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact button {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    width: 157px;
+    height: 70px;
+    left: -158px;
 }
