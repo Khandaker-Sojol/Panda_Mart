@@ -153,7 +153,7 @@ h3 {
     color: rgb(255, 255, 255);
     font-size: 36px;
     font-weight: 500;
-   
+
 }
 
 .categories-card img {
@@ -172,4 +172,75 @@ h3 {
 
 .categories-card:last-child {
     background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%, rgb(63, 7, 248) 74.29%);
+}
+
+/* Shoes Section */
+.products {
+    background: rgb(244, 244, 244);
+    padding: 30px 0;
+}
+
+.products button {
+    border-radius: 6px;
+    background: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+.products h3{
+    margin: 20px 0;
+    font-size: 24px;
+    color: rgb(31, 31, 31);
+}
+.products h2{
+    color: rgb(31, 31, 31);
+    font-size: 36px;
+    margin-top: 50px;
+}
+.shoes{
+    padding: 0 30px;
+}
+
+.shoes-container {
+    display: flex;
+    gap: 40px;
+}
+
+.shoes-card {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 31%;
+}
+
+.shoes-card img {
+    width: 336px;
+    height: 202px;
+    padding-right:30px ;
+}
+
+/* Products Bag */
+.bags{
+    padding: 0 30px;
+}
+.bags-container {
+    display: flex;
+    gap: 40px;
+}
+
+.bags-card {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 31%;
+}
+
+.bags-card img {
+    width: 336px;
+    height: 202px;
+    
 }
